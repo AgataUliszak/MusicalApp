@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MusicalApp</string>
+
+    <!-- Category name for the music categories -->
+    <string name="welcome">Choose music you want to listen</string>
+    <string name="polish">Polish Traditional Music</string>
+    <string name="italian">Italian Traditional Music</string>
+    <string name="ukrainian">Ukrainian Traditional Music</string>
+    <string name="central">Central Asia Traditional Music</string>
+    <string name="current">Now is playing...</string>
+
+</resources>
