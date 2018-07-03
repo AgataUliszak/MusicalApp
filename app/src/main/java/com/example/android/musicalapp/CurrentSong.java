@@ -6,16 +6,18 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
 /**
- * Created by ezuliag on 2018-06-22.
+ * sources of images: https://unsplash.com/
  */
 
 public class CurrentSong extends AppCompatActivity {
     TextView finalSong;
     TextView finalArtist;
+    ImageView finalImage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,10 +26,12 @@ public class CurrentSong extends AppCompatActivity {
 
     //Gets intent and ListView item data from activities with lists
         Intent intent = getIntent();
-        if (null !=intent){
+        if (intent != null){
             finalSong = findViewById(R.id.current_song);
             finalArtist = findViewById(R.id.current_artist);
+            finalImage = findViewById(R.id.song_icon);
             finalSong.setText(intent.getStringExtra("message_key1"));
             finalArtist.setText(intent.getStringExtra("message_key2"));
+            finalImage.setImageResource(intent.getIntExtra("message_key3", 0));
     }
 }}

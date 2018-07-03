@@ -10,11 +10,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <ImageView
+        android:id="@+id/song_icon"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:scaleType="centerCrop"
         android:padding="@dimen/margin"
-        android:src="@drawable/song"/>
+        android:src="@drawable/polish"/>
     <TextView
         android:id="@+id/current_song"
         android:text="current_song"

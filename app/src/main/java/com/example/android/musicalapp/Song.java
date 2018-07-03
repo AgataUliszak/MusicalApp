@@ -1,7 +1,6 @@
 package com.example.android.musicalapp;
 
 /**
- * Created by euenia on 2018-06-20.
  */
 
 public class Song {
@@ -11,12 +10,16 @@ public class Song {
     /** Song title*/
     private String mSongName;
 
+    /** Song cover*/
+    private int mSongIcon;
+
     /**
      * Create a new Song object.
      */
-    public Song(String songName, String artistName) {
+    public Song(String songName, String artistName, int songIcon) {
         mSongName = songName;
         mArtistName = artistName;
+        mSongIcon = songIcon;
     }
 
     /**
@@ -30,6 +33,13 @@ public class Song {
      */
     public String getArtistName() {
         return mArtistName;
+    }
+
+    /**
+     * Get the name of the artist
+     */
+    public int getSongIcon() {
+        return mSongIcon;
     }
 
 

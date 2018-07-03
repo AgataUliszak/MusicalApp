@@ -20,11 +20,11 @@ public class PolishMusic extends AppCompatActivity {
 
         //Create a list of songs
         ArrayList<Song> songs = new ArrayList<>();
-        songs.add(new Song ("Serce","Janusz Prusinowski Trio"));
-        songs.add(new Song ("Owijak zapustny", "Lautari"));
-        songs.add(new Song ("Mazurek niepojety", "Kapela Maliszow"));
-        songs.add(new Song ("Wiwat", "Kapela Brodow"));
-        songs.add(new Song ("W stodole sowa siada", "Balbina Darlak"));
+        songs.add(new Song ("Serce","Janusz Prusinowski Trio", R.drawable.polish));
+        songs.add(new Song ("Owijak zapustny", "Lautari", R.drawable.polish));
+        songs.add(new Song ("Mazurek niepojety", "Kapela Maliszow", R.drawable.polish));
+        songs.add(new Song ("Wiwat", "Kapela Brodow", R.drawable.polish));
+        songs.add(new Song ("W stodole sowa siada", "Balbina Darlak", R.drawable.polish));
 
         SongAdapter adapter = new SongAdapter(this, songs);
         final ListView listView = (ListView) findViewById(R.id.list);

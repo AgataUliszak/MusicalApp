@@ -29,7 +29,7 @@
             android:id="@+id/italian_music"
             style="@style/categoryStyle"
             android:background="@color/colorPrimary"
-            android:text="@string/indian" />
+            android:text="@string/italian" />
 
         <TextView
             android:id="@+id/central_asia_music"
@@ -42,6 +42,6 @@
             style="@style/categoryStyle"
             android:layout_marginBottom="10dp"
             android:background="@color/colorPrimary"
-            android:text="@string/russian" />
+            android:text="@string/ukrainian" />
     </LinearLayout>
 </ScrollView>
