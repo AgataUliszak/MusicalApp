@@ -1,16 +1,19 @@
 package com.example.android.musicalapp;
 
-/**
- */
-
 public class Song {
-    /** Name of the artist*/
+    /**
+     * Name of the artist
+     */
     private String mArtistName;
 
-    /** Song title*/
+    /**
+     * Song title
+     */
     private String mSongName;
 
-    /** Song cover*/
+    /**
+     * Song cover
+     */
     private int mSongIcon;
 
     /**
@@ -28,6 +31,7 @@ public class Song {
     public String getSongName() {
         return mSongName;
     }
+
     /**
      * Get the name of the artist
      */
@@ -41,6 +45,4 @@ public class Song {
     public int getSongIcon() {
         return mSongIcon;
     }
-
-
 }

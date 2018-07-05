@@ -7,19 +7,19 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
-        android:paddingBottom="64dp"
         android:background="@color/background"
+        android:gravity="center"
         android:orientation="vertical"
+        android:paddingBottom="64dp"
         tools:context="com.example.android.musicalapp.MainActivity">
 
         <TextView
             style="@style/welcome"
-            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:text="@string/welcome" />
-        
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -43,14 +43,14 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingBottom="10dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:paddingBottom="10dp">
 
             <TextView
                 android:id="@+id/central_asia_music"
                 style="@style/categoryStyle"
-                android:background="@color/colorPrimary"
                 android:layout_marginBottom="40dp"
+                android:background="@color/colorPrimary"
                 android:text="@string/central" />
 
             <TextView

@@ -8,23 +8,24 @@
 
     <ImageView
         android:id="@+id/song_icon"
+        style="@style/IconStyle"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:scaleType="centerCrop"
-        android:src="@drawable/polish"/>
+        android:src="@drawable/polish" />
 
     <TextView
         android:id="@+id/current_song"
-        android:text="current_song"
         style="@style/TextStyle_2"
-        android:layout_margin="@dimen/margin10" />
+        android:layout_margin="@dimen/margin10"
+        android:text="current_song" />
 
     <TextView
         android:id="@+id/current_artist"
-        android:text="current_artist"
+        style="@style/TextStyle_2"
         android:paddingBottom="@dimen/margin10"
-        style="@style/TextStyle_2" />
+        android:text="current_artist" />
 
     <LinearLayout
         android:layout_width="match_parent"

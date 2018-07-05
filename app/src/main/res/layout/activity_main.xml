@@ -14,9 +14,9 @@
 
         <TextView
             style="@style/welcome"
-            android:layout_marginTop="@dimen/margin40"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin40"
             android:text="@string/welcome" />
 
         <TextView
@@ -36,10 +36,12 @@
             style="@style/categoryStyle"
             android:background="@color/colorPrimary"
             android:text="@string/ukrainian" />
+
         <TextView
             android:id="@+id/central_asia_music"
             style="@style/categoryStyle"
             android:background="@color/colorPrimary"
             android:text="@string/central" />
+
     </LinearLayout>
 </ScrollView>

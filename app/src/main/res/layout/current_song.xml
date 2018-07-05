@@ -10,20 +10,21 @@
         android:id="@+id/song_icon"
         android:layout_width="match_parent"
         android:layout_height="@dimen/height300"
-        android:scaleType="centerCrop"
         android:padding="@dimen/margin16"
-        android:src="@drawable/polish"/>
+        android:scaleType="centerCrop"
+        android:src="@drawable/polish" />
+
     <TextView
         android:id="@+id/current_song"
-        android:text="current_song"
         style="@style/TextStyle_1"
-        android:layout_margin="@dimen/margin16" />
+        android:layout_margin="@dimen/margin16"
+        android:text="current_song" />
 
     <TextView
         android:id="@+id/current_artist"
-        android:text="current_artist"
         style="@style/TextStyle_1"
-        android:paddingBottom="@dimen/margin16"/>
+        android:paddingBottom="@dimen/margin16"
+        android:text="current_artist" />
 
     <LinearLayout
         android:layout_width="match_parent"

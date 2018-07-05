@@ -2,9 +2,8 @@
 <ListView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/list"
+    style="@style/LayoutStyle"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    style="@style/LayoutStyle"
-    tools:context="com.example.android.musicalapp.MainActivity" >
-</ListView>
+    tools:context="com.example.android.musicalapp.MainActivity"></ListView>
