@@ -9,12 +9,12 @@
         android:layout_height="match_parent"
         android:background="@color/background"
         android:orientation="vertical"
-        android:paddingBottom="30dp"
-        tools:context="com.example.android.musicalstructureapp.MainActivity">
+        android:paddingBottom="@dimen/padding78"
+        tools:context="com.example.android.musicalapp.MainActivity">
 
         <TextView
             style="@style/welcome"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="@dimen/margin40"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/welcome" />
@@ -32,16 +32,14 @@
             android:text="@string/italian" />
 
         <TextView
+            android:id="@+id/ukrainian_music"
+            style="@style/categoryStyle"
+            android:background="@color/colorPrimary"
+            android:text="@string/ukrainian" />
+        <TextView
             android:id="@+id/central_asia_music"
             style="@style/categoryStyle"
             android:background="@color/colorPrimary"
             android:text="@string/central" />
-
-        <TextView
-            android:id="@+id/ukrainian_music"
-            style="@style/categoryStyle"
-            android:layout_marginBottom="10dp"
-            android:background="@color/colorPrimary"
-            android:text="@string/ukrainian" />
     </LinearLayout>
 </ScrollView>

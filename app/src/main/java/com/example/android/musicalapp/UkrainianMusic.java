@@ -32,8 +32,9 @@ public class UkrainianMusic extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View v, int p, long id){
                 Song song = (Song) listView.getItemAtPosition(p);
                 Intent currentSong = new Intent(UkrainianMusic.this, CurrentSong.class);
-                currentSong.putExtra ("message_key1", song.getSongName());
-                currentSong.putExtra("massage_key2", song.getArtistName());
+                currentSong.putExtra ("R.string.title_key", song.getSongName());
+                currentSong.putExtra("R.string.name_key", song.getArtistName());
+                currentSong.putExtra("R.string.image_key", song.getSongIcon());
                 startActivity(currentSong);
             }}
         );

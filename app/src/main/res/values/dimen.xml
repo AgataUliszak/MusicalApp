@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="list_item_height">72dp</dimen>
-    <dimen name="margin">16dp</dimen>
+    <dimen name="list_height">72dp</dimen>
+    <dimen name="height300">300dp</dimen>
+    <dimen name="padding16">16dp</dimen>
+    <dimen name="padding78">78dp</dimen>
+    <dimen name="margin10">10dp</dimen>
+    <dimen name="margin12">12dp</dimen>
+    <dimen name="margin16">16dp</dimen>
+    <dimen name="margin40">40dp</dimen>
     <dimen name="fontSize24">24sp</dimen>
+    <dimen name="fontSize20">20sp</dimen>
+    <dimen name="fontSize18">18sp</dimen>
+    <dimen name="zero">0dp</dimen>
 </resources>

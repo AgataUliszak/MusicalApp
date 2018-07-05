@@ -6,7 +6,11 @@
     <string name="polish">Polish Traditional Music</string>
     <string name="italian">Italian Traditional Music</string>
     <string name="ukrainian">Ukrainian Traditional Music</string>
+    <string name="ukrainian2">Ukrainian Traditional\nMusic</string>
     <string name="central">Central Asia Traditional Music</string>
     <string name="current">Now is playing...</string>
+    <string name="title_key">title_key</string>
+    <string name="name_key">name_key</string>
+    <string name="image_key">image_key</string>
 
 </resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingBottom="64dp"
+        android:background="@color/background"
+        android:orientation="vertical"
+        tools:context="com.example.android.musicalapp.MainActivity">
+
+        <TextView
+            style="@style/welcome"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/polish_music"
+                style="@style/categoryStyle"
+                android:background="@color/colorPrimary"
+                android:text="@string/polish" />
+
+            <TextView
+                android:id="@+id/italian_music"
+                style="@style/categoryStyle"
+                android:background="@color/colorPrimary"
+                android:text="@string/italian" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/central_asia_music"
+                style="@style/categoryStyle"
+                android:background="@color/colorPrimary"
+                android:layout_marginBottom="40dp"
+                android:text="@string/central" />
+
+            <TextView
+                android:id="@+id/ukrainian_music"
+                style="@style/categoryStyle"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/ukrainian2" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

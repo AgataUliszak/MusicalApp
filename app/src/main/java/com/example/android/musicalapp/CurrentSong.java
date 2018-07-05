@@ -30,8 +30,8 @@ public class CurrentSong extends AppCompatActivity {
             finalSong = findViewById(R.id.current_song);
             finalArtist = findViewById(R.id.current_artist);
             finalImage = findViewById(R.id.song_icon);
-            finalSong.setText(intent.getStringExtra("message_key1"));
-            finalArtist.setText(intent.getStringExtra("message_key2"));
-            finalImage.setImageResource(intent.getIntExtra("message_key3", 0));
+            finalSong.setText(intent.getStringExtra("R.string.title_key"));
+            finalArtist.setText(intent.getStringExtra("R.string.name_key"));
+            finalImage.setImageResource(intent.getIntExtra("R.string.image_key", 0));
     }
 }}
