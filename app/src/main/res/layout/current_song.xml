@@ -23,7 +23,7 @@
     <TextView
         android:id="@+id/current_artist"
         style="@style/TextStyle_1"
-        android:paddingBottom="@dimen/margin16"
+        android:paddingBottom="@dimen/margin40"
         android:text="current_artist" />
 
     <LinearLayout
@@ -33,19 +33,19 @@
 
         <ImageView
             style="@style/IconStyle"
-            android:src="@drawable/previous" />
+            android:src="@drawable/ic_skip_previous" />
 
         <ImageView
             style="@style/IconStyle"
-            android:src="@drawable/pause" />
+            android:src="@drawable/ic_pause_circle_outline" />
 
         <ImageView
             style="@style/IconStyle"
-            android:src="@drawable/play" />
+            android:src="@drawable/ic_play_circle_outline" />
 
         <ImageView
             style="@style/IconStyle"
-            android:src="@drawable/next" />
+            android:src="@drawable/ic_skip_next" />
 
     </LinearLayout>
 </LinearLayout>

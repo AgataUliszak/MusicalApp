@@ -29,5 +29,5 @@
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:layout_marginRight="@dimen/margin16"
-        android:src="@drawable/play" />
+        android:src="@drawable/ic_play_circle_outline" />
 </RelativeLayout>

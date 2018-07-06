@@ -9,7 +9,7 @@
         android:layout_height="match_parent"
         android:background="@color/background"
         android:orientation="vertical"
-        android:paddingBottom="@dimen/padding78"
+        android:paddingBottom="@dimen/paddingLayout"
         tools:context="com.example.android.musicalapp.MainActivity">
 
         <TextView
