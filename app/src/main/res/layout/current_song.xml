@@ -23,7 +23,7 @@
     <TextView
         android:id="@+id/current_artist"
         style="@style/TextStyle_1"
-        android:paddingBottom="@dimen/margin40"
+        android:paddingBottom="@dimen/margin50"
         android:text="current_artist" />
 
     <LinearLayout
